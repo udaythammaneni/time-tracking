@@ -1,0 +1,212 @@
+.card {
+  border-radius: 15px !important;
+}
+
+.card1 {
+  margin-top: -8px;
+  height: auto;
+}
+
+.card2 {
+  margin-top: 16px;
+  height: auto;
+}
+
+.btn-primary {
+  border-radius: 20px !important;
+  width: 90px !important;
+  background: transparent radial-gradient(closest-side at 28% 23%, #090D3A 0%, #122E6D 98%, #122E6D 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #00000000;
+  border-radius: 24px;
+  opacity: 1;
+}
+
+.btn-primary>.btn-text {
+  font-size: 10px !important;
+  position: relative;
+  top: -1px;
+}
+
+.card-background {
+  /* background: transparent url('img/Rectangle 1.png') 0% 0% no-repeat padding-box; */
+  box-shadow: inset 0px 0px 20px #00000099;
+  opacity: 1;
+}
+
+.card-shadow {
+  box-shadow: 0px 20px 35px #00000036;
+}
+
+.clock {
+  /* top: 138px;
+left: 519px;
+width: 241px;
+height: 241px;
+transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+border: 21px dashed #90939A;
+opacity: 1; */
+  border: 23px solid #E0DEDE;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.clock1 {
+  height: 200px;
+  width: 200px;
+  border: 23px solid #021684;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: #E0DEDE;
+  border-left-color: #E0DEDE;
+  ;
+  /* Rotate the circle */
+  transform: rotate(0deg);
+  margin: auto;
+}
+
+/* clock */
+.outer-clock-face {
+  position: relative;
+  /* background: #282828; */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.outer-clock-face::after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg)
+}
+
+.outer-clock-face::after,
+.outer-clock-face::before,
+.outer-clock-face .marking {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #00000036;
+  z-index: 0;
+  left: 49%;
+}
+
+.outer-clock-face .marking {
+  background: #00000036;
+  width: 1px;
+}
+
+.outer-clock-face .marking.marking-one {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+.outer-clock-face .marking.marking-two {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg)
+}
+
+.outer-clock-face .marking.marking-three {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  transform: rotate(120deg)
+}
+
+.outer-clock-face .marking.marking-four {
+  -webkit-transform: rotate(133deg);
+  -moz-transform: rotate(133deg);
+  transform: rotate(133deg)
+}
+
+.inner-clock-face {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: white;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.inner-clock-face1 {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 18px;
+  margin-left: -9px;
+  margin-top: -6px;
+  /* background: black; */
+  display: flex;
+  z-index: 11;
+}
+
+.hr {
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: -17px;
+  font-size: 26px;
+}
+
+.min {
+
+  font-size: 14px;
+  top: -12px;
+  margin-left: -16px;
+  margin-top: 85px;
+  position: fixed;
+}
+
+
+.sec {
+  font-size: 13px;
+  margin-top: 22px;
+  margin-left: -12px;
+  position: fixed;
+
+}
+
+
+#stopbtn {
+  display: none;
+}
+
+.sub-menu {
+  padding: 0;
+  max-height: 7em;
+  overflow-y: auto;
+  display: grid;
+  grid-row-gap: 10px
+}
+
+.row {
+  padding: 12px
+}
+
+.col-12 {
+  padding-left: 30px
+}
+
+.card-body {
+  overflow: hidden;
+}
+
+.g-0 {
+  padding: 0px;
+}
+
+#resume {
+  display: none;
+  background: #0D6EFD;
+}
